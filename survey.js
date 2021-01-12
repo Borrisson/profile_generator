@@ -21,25 +21,25 @@ rl.question(allQuestions[0], (answer) => {
         rl.question(allQuestions[4], (answer) => {
           rl.question(allQuestions[5], (answer) => {
             rl.question(allQuestions[6], (answer) => {
-              output = output + `Super Power: ${answer}\n`
+              output = output + `Super Power: ${answer}\n`;
               console.log(output);
-              rl.close()
+              rl.close();
             });
 
-            output = output + `Favourite Sports: ${answer}\n`
+            output = output + `Favourite Sports: ${answer}\n`;
           });
 
-          output = output + `Favourite Meal: ${answer}\n`
+          output = output + `Favourite Meal: ${answer}\n`;
         });
 
-        output = output + `Favourite Time to Eat: ${answer}\n`
+        output = output + `Favourite Time to Eat: ${answer}\n`;
       });
 
-      output = output + `Favourite Music: ${answer}\n`
+      output = output + `Favourite Music: ${answer}\n`;
     });
 
-    output = output + `Favourite Activity: ${answer}\n`
+    output = output + `Favourite Activity: ${answer}\n`;
   });
 
-output = output + `Name: ${answer}\n`
+  output = output + `Name: ${answer}\n`;
 });
